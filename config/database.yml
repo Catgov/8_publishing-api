@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  template: template0
+
+development:
+  <<: *default
+  database: publishing_api_development
+
+test:
+  <<: *default
+  database: publishing_api_test
+
+production:
+  <<: *default
+  # Rails reads values from DATABASE_URL env var.
