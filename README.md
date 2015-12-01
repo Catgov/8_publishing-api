@@ -1,4 +1,4 @@
-# Publishing API
+# Create clear content
 
 This is a Rails application that proxies requests to multiple content-stores. Our
 use case for this is to keep two copies of the frontend of GOV.UK running: one
